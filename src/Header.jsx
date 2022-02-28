@@ -24,7 +24,7 @@ function Header({ category, setCategory,word, setWord, lightmode }){
     <span className="title">{word ? word:"Word Hunt"}</span>
     <div className="inputs">
     <ThemeProvider theme={darkTheme}>
-    <TextField  className="search" value={word} onChange={(e) => setWord(e.target.value)}  label="Search a Word" label="Type your Word" variant="standard" />
+    <TextField  className="search" value={word} onChange={(e) => setWord(e.target.value)}  label="Type your Word" variant="standard" />
     <TextField
          className="select"
          select
